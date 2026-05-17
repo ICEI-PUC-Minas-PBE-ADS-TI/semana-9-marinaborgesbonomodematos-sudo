@@ -4,13 +4,15 @@ Nesta atividade, será desenvolvido um programa para praticar o uso de funções
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
+- Nome: Marina Borges Bonomo de Matos
+- Matrícula: 907022
 
 ## Prints do trabalho
 
 <<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
+![CARDS](/imagens/Capturainicial.png)
 
 <<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
-
+![DETALHES](/imagens/Capturamarcacap.png)
 <<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
+![CONSOLE](/imagens/Capturaresultado.png)

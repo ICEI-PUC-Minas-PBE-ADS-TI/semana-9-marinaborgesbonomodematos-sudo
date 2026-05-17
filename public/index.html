@@ -1,13 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <title>Frut-Frut</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/imagens/FavIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" >
 </head>
 <body>
+    <header class="hero">
+        <div class="imgHero">
+            <img src="/imagens/hero.png" alt="Imagem de logo principal">
+        </div>
+    </header>  
+    <div id="notification" class="notification"></div>
+    <!--campo de texto para busca-->
+        <section class="controle">
+            <input type="text" id="search" placeholder="blablabla">
+             <!--um <select id="category"> para categorias -->
+            <select name="" id="category">
+               <option value="Todas">Todas</option> 
+            </select>
+            <!--um botão <button id="btnRender">Renderizar</button> para “recarregar” o catálogo-->
+            <button id="btnRender">Renderizar</button>
+
+        </section>
+
+    <main>
+
+        <div id="product-list"></div>
+
+        <div id="product-details"></div>
+
+    </main>
     
+    <script src="script.js"></script>
 </body>
 </html>

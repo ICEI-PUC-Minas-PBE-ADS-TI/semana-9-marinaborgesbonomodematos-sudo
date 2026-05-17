@@ -1,0 +1,144 @@
+body{
+    font-family:'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    background: #FEF4E9;
+    box-sizing: border-box;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 100%;
+  min-height: auto;
+}
+.imgHero{
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.imgHero img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* CONTROLS */
+
+.controls{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.controle input,
+.controle select{
+  flex: 1;
+  min-width: 220px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: #F4E7DE;
+  font-size: 1rem;
+  outline: none;
+}
+
+.controle button{
+  padding: 15px 25px;
+  border: none;
+  border-radius: 15px;
+  background-color: #1a5634af;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.controle button:hover{
+
+  transform: scale(1.05);
+
+}
+
+.notification{
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a5634;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 1000;
+}
+
+.notification.visible{
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+#product-list{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+#productos{
+    background-color: #ffff;
+}
+
+.container-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+p{
+    margin-top: 10px;
+    font-size: 14px;transition: 0.3s;
+}
+
+.descricao-card{
+  margin-top:8px;
+  font-size:13px;
+  color:#333;
+}
+
+/**/
